@@ -1,0 +1,55 @@
+body {
+  background-color: #303030;
+  font-family: "Montserrat", sans-serif, Medium;
+  color: white;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+}
+#uber {
+  font-weight: 700;
+  font-size: 48px;
+}
+/*a corriger*/
+.headboutton {
+  font-size: 16px;
+}
+.headbouttonbold {
+  font-weight: 700;
+}
+.headbouttonsemibold {
+  font-weight: 600;
+}
+/*fin de  corriger*/
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.menu {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+#menucolor {
+  color: #c8e6c9;
+}
+
+.boutton1 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.boutton1_orange {
+  color: #ffa000;
+}
+.fifthbloc {
+  color: #c8e6c9;
+}
