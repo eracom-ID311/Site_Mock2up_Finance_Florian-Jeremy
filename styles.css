@@ -3,6 +3,10 @@ body {
   font-family: "Montserrat", sans-serif, Medium;
   color: white;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 
 h1 {
   font-weight: 600;
@@ -11,18 +15,42 @@ h1 {
 #uber {
   font-weight: 700;
   font-size: 48px;
+  text-align: center;
 }
-/*a corriger*/
+/*à corriger*/
 .headboutton {
   font-size: 16px;
 }
 .headbouttonbold {
   font-weight: 700;
+  font-size: 18px;
 }
 .headbouttonsemibold {
   font-weight: 600;
+  font-size: 18px;
+  padding-inline: 13px;
+  padding-block: 4px;
+  background-color: #ffa000;
+  border-radius: 6px;
 }
-/*fin de  corriger*/
+/*fin de à corriger*/
+
+/*---------------1er bloc---------------*/
+#Green {
+  background-color: #4caf50;
+  padding-inline: 14px;
+  padding-block: 4px;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+#Orange {
+  outline: solid #ffa000;
+  padding-inline: 14px;
+  padding-block: 4px;
+  display: inline-block;
+  border-radius: 6px;
+}
 
 h2 {
   font-weight: 500;
@@ -47,10 +75,20 @@ li {
   font-weight: 700;
   font-size: 28px;
 }
-
+/*-------------------2e bloc--------------------*/
 .boutton1_orange {
   color: #ffa000;
 }
 .fifthbloc {
   color: #c8e6c9;
+  text-align: center;
+}
+
+#Orange2 {
+  padding-block: 4px;
+  background-color: #ffa000;
+  border-radius: 6px;
+  text-align: center;
+  padding-inline: 13px;
+  padding-block: 4px;
 }
