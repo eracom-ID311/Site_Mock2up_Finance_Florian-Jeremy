@@ -92,3 +92,7 @@ li {
   padding-inline: 13px;
   padding-block: 4px;
 }
+
+footer {
+  background-image: url(svg/Deco2.svg);
+}
