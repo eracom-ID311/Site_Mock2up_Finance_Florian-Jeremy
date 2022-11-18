@@ -2,6 +2,7 @@ body {
   background-color: #303030;
   font-family: "Montserrat", sans-serif, Medium;
   color: white;
+  margin-left: 10vw;
 }
 a {
   text-decoration: none;
@@ -13,6 +14,8 @@ h1 {
   font-size: 32px;
 }
 #uber {
+  margin-bottom: -20px;
+  margin-top: 250px;
   font-weight: 700;
   font-size: 48px;
   text-align: center;
@@ -39,7 +42,7 @@ h1 {
 #Green {
   background-color: #4caf50;
   padding-inline: 14px;
-  padding-block: 4px;
+  padding-block: 10px;
   display: inline-block;
   border-radius: 6px;
 }
@@ -85,14 +88,61 @@ li {
 }
 
 #Orange2 {
-  padding-block: 4px;
   background-color: #ffa000;
   border-radius: 6px;
+  display: flex;
   text-align: center;
-  padding-inline: 13px;
-  padding-block: 4px;
+  justify-content: center;
+  margin-left: 78vh;
+  padding-inline: 20px;
+  padding-block: 10px;
+  max-width: 20vh;
 }
 
 footer {
   background-image: url(svg/Deco2.svg);
+  margin-left: -10vw;
+}
+
+.Four_bloc {
+  text-align: center;
+  justify-content: center;
+}
+
+.FeatureOneTwo {
+  display: flex;
+  max-width: 80vw;
+  text-align: end;
+  align-items: center;
+}
+.FeatureOneTwoone {
+  max-width: 80vw;
+  text-align: start;
+}
+
+#BS {
+  border-radius: 20px;
+  background-color: #424242;
+  padding-inline: 4rem;
+  border: 1px solid #4caf50;
+  text-align: start;
+  margin-right: 100px;
+}
+
+#BS_Vert {
+  color: #c8e6c9;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+#FPQ {
+  display: flex;
+  text-align: start;
+  margin-top: 250px;
+}
+
+#VM_Lien {
+  color: #ff6f00;
 }
