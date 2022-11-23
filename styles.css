@@ -13,13 +13,28 @@ h1 {
   font-weight: 600;
   font-size: 32px;
 }
-#uber {
-  margin-bottom: -20px;
-  margin-top: 250px;
-  font-weight: 700;
-  font-size: 48px;
-  text-align: center;
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
 }
+
+/*--------------------------------MENU---------------------------*/
+
+.menu {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+#menucolor {
+  color: #c8e6c9;
+}
+
 /*à corriger*/
 .headboutton {
   font-size: 16px;
@@ -38,7 +53,7 @@ h1 {
 }
 /*fin de à corriger*/
 
-/*---------------1er bloc---------------*/
+/*--------------------------------1er BLOC---------------------------*/
 #Green {
   background-color: #4caf50;
   padding-inline: 14px;
@@ -55,22 +70,32 @@ h1 {
   border-radius: 6px;
 }
 
-h2 {
-  font-weight: 500;
-  font-size: 24px;
+#VM_Lien {
+  color: #ff6f00;
 }
 
-.menu {
-  font-weight: 600;
-  font-size: 18px;
+/*--------------------------------2e BLOC---------------------------*/
+
+#FPQ {
+  display: flex;
+  text-align: start;
+  margin-top: 250px;
 }
 
-li {
-  list-style: none;
-  display: inline-block;
+#BS {
+  border-radius: 20px;
+  background-color: #424242;
+  padding-inline: 4rem;
+  border: 1px solid #4caf50;
+  text-align: start;
+  margin-right: 100px;
 }
 
-#menucolor {
+.boutton1_orange {
+  color: #ffa000;
+}
+
+#BS_Vert {
   color: #c8e6c9;
 }
 
@@ -78,12 +103,49 @@ li {
   font-weight: 700;
   font-size: 28px;
 }
-/*-------------------2e bloc--------------------*/
-.boutton1_orange {
-  color: #ffa000;
+
+h4 {
+  font-weight: 400;
 }
+
+/*--------------------------------3e BLOC---------------------------*/
+
+.FeatureOneTwo {
+  display: flex;
+  max-width: 80vw;
+  text-align: end;
+  align-items: center;
+}
+
+.FeatureOneTwoone {
+  max-width: 80vw;
+  text-align: start;
+}
+
+/*--------------------------------4e BLOC---------------------------*/
+
+.Four_bloc {
+  text-align: center;
+  justify-content: center;
+}
+
+/*--------------------------------BAS DE PAGE---------------------------*/
+
+footer {
+  background-image: url(svg/Deco2.svg);
+  margin-left: -10vw;
+}
+
 .fifthbloc {
   color: #c8e6c9;
+  text-align: center;
+}
+
+#uber {
+  margin-bottom: -20px;
+  margin-top: 250px;
+  font-weight: 700;
+  font-size: 48px;
   text-align: center;
 }
 
@@ -97,52 +159,4 @@ li {
   padding-inline: 20px;
   padding-block: 10px;
   max-width: 20vh;
-}
-
-footer {
-  background-image: url(svg/Deco2.svg);
-  margin-left: -10vw;
-}
-
-.Four_bloc {
-  text-align: center;
-  justify-content: center;
-}
-
-.FeatureOneTwo {
-  display: flex;
-  max-width: 80vw;
-  text-align: end;
-  align-items: center;
-}
-.FeatureOneTwoone {
-  max-width: 80vw;
-  text-align: start;
-}
-
-#BS {
-  border-radius: 20px;
-  background-color: #424242;
-  padding-inline: 4rem;
-  border: 1px solid #4caf50;
-  text-align: start;
-  margin-right: 100px;
-}
-
-#BS_Vert {
-  color: #c8e6c9;
-}
-
-h4 {
-  font-weight: 400;
-}
-
-#FPQ {
-  display: flex;
-  text-align: start;
-  margin-top: 250px;
-}
-
-#VM_Lien {
-  color: #ff6f00;
 }
